@@ -25,7 +25,7 @@ nums[2...4] = [5, 4, 2] is strictly decreasing (5 > 4 > 2).
 nums[4...5] = [2, 6] is strictly increasing (2 < 6).©leetcode
 * */
 
-public class MainTrionic {
+public class Question1 {
     public static boolean isTrionic(int[] nums) {
         int p = 0, q, n = nums.length;
 
@@ -71,6 +71,6 @@ public class MainTrionic {
 
     public static void main(String[] args) {
         int[] nums = {9, 4, 6, 8};
-        System.out.println(MainTrionic.isTrionic(nums));
+        System.out.println(Question1.isTrionic(nums));
     }
 }
