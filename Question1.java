@@ -40,7 +40,6 @@ public class Question1 {
                 break;
             }
         }
-        System.out.println(p);
         if (p == n - 1) {
             return false;
         } else {
@@ -53,7 +52,6 @@ public class Question1 {
                 }
             }
         }
-        System.out.println(q);
         if (q == n - 1) {
             return false;
         } else {
